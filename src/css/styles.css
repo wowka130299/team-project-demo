@@ -16,5 +16,20 @@
 @import url('./footer.css');
 
 :root {
- 
+  --main-color-white:#ffffff;
+  --seconadary-color-brown: #BEA69E;
+  --black-color: #121212;
+  --grey-color: #1D1D1D;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  
+  color: var(--main-color-white);
+  background-color: var(--black-color);
 }
+
+
+
+
+
