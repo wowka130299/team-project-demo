@@ -6,3 +6,19 @@ body {
     background-color: var(--black-color);
     font-style: normal;
 }
+
+.container {
+    max-width: 375px;
+}
+
+@media screen and (min-width:768зч) {
+    .container {
+        max-width:768;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+       max-width: 1280px;
+    }
+}
